@@ -1,6 +1,6 @@
 # Frontier
 
-This is a small python module, build on top of `pystock` to help users visualize the efficient frontier of their portfolio. The module uses Monte-Carlo simulation to plot the frontier.
+This is a small python module, build on top of [pystock](https://github.com/Hari31416/pystock) to help users visualize the efficient frontier of their portfolio. The module uses Monte-Carlo simulation to plot the frontier.
 
 ## How To Use
 
@@ -11,11 +11,13 @@ Here are the steps involved:
 3. (Optional) You also need to calculate FFF parameters if you want to use FFF3 or FFF5 models.
 4. That's all!
 
-> Of course, you need to have the latest version of `pystock` module installed. Install it by using
+> Of course, you need to have the latest version of `pystock` module installed. Install it by using:
 >
 > ```bash
 > pip install --upgrade pystock0
 > ```
+>
+> If you are not familiar with `pystock`, here is the github [repository](https://github.com/Hari31416/pystock) that might be of help. You can also have a look at the [documentation](https://hari31416.github.io/pystock/html/index.html).
 
 ## Example
 
